@@ -51,7 +51,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("musicsupport_dan")
+                await self.one.join_chat("musik_supportdan")
                 await self.one.join_chat("Disney_storeDan")
             except:
                 pass
@@ -72,7 +72,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("musicsupport_dan")
+                await self.two.join_chat("musik_supportdan")
                 await self.two.join_chat("Disney_storeDan")
             except:
                 pass
@@ -93,7 +93,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("musicsupport_dan")
+                await self.three.join_chat("musik_supportdan")
                 await self.three.join_chat("Disney_storeDan")
             except:
                 pass
@@ -114,7 +114,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("musicsupport_dan")
+                await self.four.join_chat("musik_supportdan")
                 await self.four.join_chat("Disney_storeDan")
             except:
                 pass
@@ -135,7 +135,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("musicsupport_dan")
+                await self.five.join_chat("musik_supportdan")
                 await self.five.join_chat("Disney_storeDan")
             except:
                 pass
